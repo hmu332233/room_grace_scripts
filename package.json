@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "phantomjs index.js"
+    "start": "node_modules/phantomjs/bin/phantomjs index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "minung.han",
   "license": "MIT",
   "dependencies": {
     "casperjs": "^1.1.4",
-    "phantomjs": "^2.1.7",
+    "phantomjs": "^2.1.7"
   }
 }
