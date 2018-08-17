@@ -7,7 +7,7 @@ var PW = '';
 
 var TITLE = "★첫입주★(사진있음) 예대, 생활관 1분거리. 신축 풀옵션 원룸";
 var USER_NAME = '원룸그레이스';
-var CONTENTS = fs.read('./contents.html', 'utf8');
+var CONTENTS = fs.read('modules/jnuPoster/contents.html', 'utf8');
 
 console.log('글 작성 시작');
 
