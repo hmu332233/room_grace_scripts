@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/phantomjs/bin/phantomjs index.js",
+    "start": "node modules/scheduler",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "minung.han",
