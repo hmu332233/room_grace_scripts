@@ -1,9 +1,10 @@
 var fs = require('fs');
+var env = require('system').env;
 
 var LOGIN_URL = "https://portal.jnu.ac.kr/Common/Login/Login.aspx";
 var WRITE_PAGE_URL = "http://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=10&bbsMode=write&page=1";
-var ID = '';
-var PW = '';
+var ID = env.ID;
+var PW = env.PW;
 
 var TITLE = "★첫입주★(사진있음) 예대, 생활관 1분거리. 신축 풀옵션 원룸";
 var USER_NAME = '원룸그레이스';
