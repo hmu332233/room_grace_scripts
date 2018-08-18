@@ -12,6 +12,7 @@
   "dependencies": {
     "casperjs": "^1.1.4",
     "node-cron": "^1.2.1",
-    "phantomjs": "^2.1.7"
+    "phantomjs": "^2.1.7",
+    "request": "^2.88.0"
   }
 }
