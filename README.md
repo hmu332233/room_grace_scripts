@@ -15,5 +15,5 @@ $ npm start
 ### deploy
 ```bash
 $ docker build -t jnuPoster:0.0.1 .
-$ docker run -d -e ID=[ID] -e PW=[PW] --name jnuPoster:0.0.1 jnuPoster.0.0.1 /bin/bash -c "npm start"
+$ docker run -d -e ID=[ID] -e PW=[PW] -e notify_token=[TOKEN] --name jnuPoster:0.0.1 jnuPoster.0.0.1 /bin/bash -c "npm start"
 ```
