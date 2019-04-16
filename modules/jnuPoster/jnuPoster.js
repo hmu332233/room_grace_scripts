@@ -33,9 +33,9 @@ casper.start().thenOpen(LOGIN_URL, function() {
 casper.then(function(){
     console.log("해당 id와 pw로 로그인 합니다.");
     this.evaluate(function(id, pw){
-        document.getElementById("ucLogin_userid1").value = id;
-        document.getElementById("ucLogin_passwd1").value = pw;
-        document.getElementById("ucLogin_ibtnLogin").click();
+        document.getElementById("ContentPlaceHolder1_LoginUser_UserName").value = id;
+        document.getElementById("ContentPlaceHolder1_LoginUser_Password").value = pw;
+        document.getElementById("ContentPlaceHolder1_LoginUser_LoginButton").click();
     }, {
       id: ID,
       pw: PW
