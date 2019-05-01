@@ -6,7 +6,7 @@ var WRITE_PAGE_URL = "http://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?b
 var ID = env.ID;
 var PW = env.PW;
 
-var TITLE = "★주방 분리형 풀옵션★(사진있음)예대,생활관1분거리 원룸";
+var TITLE = "★★신축 주방 분리형 풀옵션★★(사진있음)예대, 생활관1분거리 원룸";
 var USER_NAME = '원룸그레이스';
 var CONTENTS = fs.read('modules/jnuPoster/contents.html', 'utf8');
 
